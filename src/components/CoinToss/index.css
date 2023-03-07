@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sub-container {
+  width: 30%;
+  height: 80%;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 16px;
+}
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 45px;
+}
+.description {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+}
+.btn-coin {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #e2a139;
+  border-radius: 8px;
+  margin-top: 25px;
+  padding: 7px 14px;
+  border-width: 0px;
+}
+.coinToss-img {
+  width: 250px;
+}
+.details-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.details {
+  color: #334155;
+  font-family: 'Roboto';
+  font-weight: 500;
+  padding-top: 10px;
+  padding-left: 35px;
+}
